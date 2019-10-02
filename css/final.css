@@ -1,0 +1,153 @@
+body {
+	font-family:Trajan Bold;
+	color: #FEFEFE;
+	background-color: #2F363D;
+	}
+	
+div.nav {
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(47,54,61,1) 85%);;
+    width: 100%;
+	transition: 0.4s;
+    position: fixed;
+    height: 60px;
+	top: 0;
+	z-index: 2;
+	border-bottom: solid #B44335 3px;}
+
+a.logo {
+	text-align: center;
+	margin:auto;
+	z-index: 2}
+	
+a.logo img {		
+	height: 50px;
+	width: auto;}
+
+section.1st {
+	z-index: 1;}
+	
+div.w-100 {
+	height:550;
+	overflow: hidden;
+	background-color: #2F363D;}	
+	
+img.slide {
+	width:100%;
+	max-height:auto;}
+	
+h1.welcome {
+	position: relative;
+	text-align:center;
+	margin-top: -30%;
+	font-size:80px;}
+	
+h1.welcome {
+  color: #FEFEFE;
+  text-shadow:
+    0 0 5px #DB9702,
+    0 0 10px #DB9702,
+    0 0 20px #DB9702,
+    0 0 40px #DAA520,
+    0 0 80px #DAA520,
+    0 0 90px #DAA520,
+    0 0 100px #DAA520,
+    0 0 150px #DAA520;}
+
+h1.welcome {
+	opacity: 0;
+	animation: animate 1s linear forwards;}
+	
+@keyframes animate{
+	0%
+	{
+			opacity: 0;
+			transform: rotateY(90deg);
+			filter: blur(10px)}
+	100%
+	{
+		opacity: 1;
+			transform: rotateY(0deg);
+			filter: blur(0px)}
+}
+
+section.2nd {
+	z-index: 3;}
+	
+div.showcase {
+	background: radial-gradient(circle, rgba(47,54,61,1) 60%, rgba(18,18,18,1) 100%);
+	height:300;
+	border-top: solid #B44335 3px;
+	border-bottom: solid #B44335 3px;}
+	
+h1.lycan_head {
+	padding:20px;
+	transform: scale(0.9);}
+
+div.lycan_title	{
+	background-color: #2F363D;
+	height:120px;
+	z-index:1;
+	border-top: solid #1B1E21 3px;
+	border-bottom: solid #1B1E21 3px;}
+	
+div.lycan_text	{
+	position: absolute;
+	font-size:60px;
+	padding-left:400px;
+	margin-top:10px;
+	margin-bottom:10px;}
+	
+div.lycan_text_reveal {
+	display: none;
+	position: absolute;
+	font-size:60px;
+	padding-left:400px;
+	margin-top:10px;
+	margin-bottom:10px;}
+
+img.lycan_img {
+	display: block;
+	height:300px;
+	z-index:2;
+	padding-right: 100px;}
+
+div.lycan {
+	transform: scale(1);
+	transition: transform 0.4s cubic-bezier(0, 0, 0.3,1);}
+
+div.lycan:hover {
+	transform: scale(1.1);}
+	
+div.lycan:hover .lycan_text { display: none; }	
+	
+div.lycan:hover .lycan_text_reveal { display: inline; }
+
+h1.bhead {
+	text-align:center;
+	font-size:60px;}
+	
+h1.bhead {
+  color: #FEFEFE;
+  text-shadow:
+    0 0 5px #B44335,
+    0 0 10px #B44335,
+    0 0 20px #B44335,
+    0 0 40px #B9500B,
+    0 0 80px #B9500B,
+    0 0 90px #B9500B,
+    0 0 100px #B9500B,
+    0 0 150px #B9500B;}
+	
+img.es {
+	display: block;
+	height:150px;}
+	
+img.sf {
+	display: block;
+	height:150px;}
+	
+
+	
+
+	
